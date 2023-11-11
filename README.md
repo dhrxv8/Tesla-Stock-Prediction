@@ -21,5 +21,5 @@ This notebook requires the following libraries to be installed:
 
 ### Conclusion
 
-This notebook provides a useful example of how to use linear regression to predict stock prices and can be a helpful resource for anyone interested in this topic. If you have any questions or feedback, please feel free to contact us.
+This notebook provides a useful example of how to use linear regression to predict stock prices and can be a helpful resource for anyone interested in this topic. If you have any questions or feedback, please feel free to contact me.
 
