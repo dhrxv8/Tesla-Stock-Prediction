@@ -1,25 +1,47 @@
-## Tesla Stock Price Prediction Using Linear Regression
+# Tesla Stock Price Prediction
 
-This repository contains a Jupyter Notebook file named "Tesla_Stock_Price_Prediction_.ipynb" that demonstrates how to predict the stock price of Tesla using linear regression. The notebook uses Python and imports necessary libraries such as NumPy, Pandas, and Scikit-learn.
+A Jupyter Notebook project that uses linear regression to explore historical Tesla stock price data and practice a basic machine learning workflow.
 
-### Usage
+## Overview
 
-To use this notebook, you will need to have Jupyter installed on your machine. You can then download the "Tesla_Stock_Price_Prediction_.ipynb" file and open it in Jupyter. From there, you can run the code cells to see how the linear regression model is trained and used to predict the stock prices of Tesla.
+This project demonstrates how to load stock price data, prepare features, train a linear regression model, and evaluate prediction error using Python data science libraries.
 
-### Data
+It is an educational project focused on learning regression workflow and model evaluation. It is not intended for trading or investment decisions.
 
-The data used in this notebook is a CSV file containing the historical stock prices of Tesla. The data is split into training and testing sets, and the linear regression model is trained on the training set. The model is then used to predict the stock prices on the testing set, and the accuracy of the model is evaluated using metrics such as mean squared error.
+## What The Notebook Covers
 
-### Dependencies
+- Loading and inspecting historical Tesla stock price data
+- Preparing train/test splits
+- Training a linear regression model with scikit-learn
+- Evaluating predictions with error metrics such as mean squared error
+- Visualizing trends and model results with Matplotlib
 
-This notebook requires the following libraries to be installed:
+## Tech Stack
 
+- Python
+- Jupyter Notebook
 - NumPy
-- Pandas
-- Scikit-learn
+- pandas
+- scikit-learn
 - Matplotlib
 
-### Conclusion
+## Project Structure
 
-This notebook provides a useful example of how to use linear regression to predict stock prices and can be a helpful resource for anyone interested in this topic. If you have any questions or feedback, please feel free to contact me.
+```text
+Tesla-Stock-Prediction/
+├── Tesla_Stock_Price_Prediction_.ipynb
+└── README.md
+```
 
+## Run Locally
+
+```bash
+git clone https://github.com/dhrxv8/Tesla-Stock-Prediction.git
+cd Tesla-Stock-Prediction
+pip install numpy pandas scikit-learn matplotlib jupyter
+jupyter notebook "Tesla_Stock_Price_Prediction_.ipynb"
+```
+
+## Notes
+
+Stock prices are noisy and influenced by many external factors. This project is a learning exercise in regression modeling, not financial advice and not a production forecasting system.
